@@ -1,0 +1,49 @@
+print extended heap
+insert 1 0
+find 1
+1 is not in the extended heap
+inserted 1 with priority 0
+insert 2 15
+find 2
+2 is not in the extended heap
+inserted 2 with priority 15
+insert 3 80
+find 3
+3 is not in the extended heap
+inserted 3 with priority 80
+insert 4 20
+find 4
+4 is not in the extended heap
+the extened heap is full
+insert 1 0
+find 1
+1 has the priority 0
+1 is already in the extened heap
+print extended heap
+node 0 = 1 0
+node 1 = 2 15
+node 2 = 3 80
+find 5
+5 is not in the extended heap
+deleteMin
+deleted 1 with the priority 0
+insert 5 6
+find 5
+5 is not in the extended heap
+inserted 5 with priority 6
+change priority 3 40
+find 3
+3 has the priority 80
+changed priority of 3 to 40
+change priority 9 10
+find 9
+9 is not in the extended heap
+change priority 4 14
+find 4
+4 is not in the extended heap
+find 5
+5 has the priority 6
+print extended heap
+node 0 = 5 6
+node 1 = 2 15
+node 2 = 3 40

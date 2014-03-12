@@ -1,0 +1,96 @@
+
+CS572 Design and Analysis of Algorithms
+Fall 2009
+PROJECT 1 README FILE
+
+Due Date: Friday, September. 25. 2009
+Submission Date: Friday, September. 25. 2009
+Author(s): Elif Dede
+e-mail(s): edede1@binghamton.edu   elifdd@gmail.com
+
+PURPOSE:
+This project aims to implement an extended heap.
+
+PERCENT COMPLETE:
+I believe I have accomplished to meet all the requirements given in the project description.
+
+BUGS:
+All the exceptions has tried to be handled.
+One important point is that the input and output files should be in the same directory with the project.
+And the input file contents should be exactly in the same format with the given file "input.txt"  
+
+FILES:
+HandleItem.java				the java file determining the handle node type
+HeapItem.java				the java file determining the heap node type
+Heap.java					where the heap is implemented
+HeapFileReader.java			reads the input file at once and creates the operation list
+HeapOutputFileWriter.java	writes the output list to a file at the end of the program
+Operation.java				the java file determining the operation prototype
+OperationExecuter.java		executes all the operations in the operation list
+HeapRunner.java				the file contains the main function
+
+SAMPLE OUTPUT:
+
+This is a sample from the output.txt that is generated for the operations in the input.txt
+
+insert 1 0
+find 1
+1 is not in the extended heap
+inserted 1 with priority 0
+insert 2 15
+find 2
+2 is not in the extended heap
+inserted 2 with priority 15
+insert 3 80
+find 3
+3 is not in the extended heap
+inserted 3 with priority 80
+insert 4 20
+find 4
+4 is not in the extended heap
+inserted 4 with priority 20
+print extended heap
+node 0 = 1 0
+node 1 = 2 15
+node 2 = 3 80
+node 3 = 4 20
+find 5
+5 is not in the extended heap
+deleteMin
+deleted 1 with the priority 0
+change priority 3 40
+find 3
+3 has the priority 80
+changed priority of 3 to 40
+change priority 4 14
+find 4
+4 has the priority 20
+changed priority of 4 to 14
+print extended heap
+node 0 = 4 14
+node 1 = 2 15
+node 2 = 3 40
+
+ 
+
+TO COMPILE:
+Go to directory of your file from command line and type:
+
+javac HeapRunner.java
+
+TO RUN:
+After compiling stay in the same directory and type:
+
+java HeapRunner <input file name> <output file name>
+
+EXTRA CREDIT:
+There were no extra credit offered for this assignment
+
+
+BIBLIOGRAPHY:
+
+CS 575 Class Notes, Slides
+Extended Heap slides that was presented by TA
+Data Structures & Algorithms in Java Second Edition, Robert Lafore
+Introduction to Algorithms,  Cormen and Rivest
+

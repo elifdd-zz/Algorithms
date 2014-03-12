@@ -1,0 +1,2 @@
+The current number of disks is 30
+The number of recursive calls was 2147483647 and the time was 352180

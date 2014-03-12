@@ -1,0 +1,17 @@
+Disk 1: Move from S to I
+Disk 2: Move from S to D
+Disk 1: Move from I to D
+Disk 3: Move from S to I
+Disk 1: Move from D to S
+Disk 2: Move from D to I
+Disk 1: Move from S to I
+Disk 4: Move from S to D
+Disk 1: Move from I to D
+Disk 2: Move from I to S
+Disk 1: Move from D to S
+Disk 3: Move from I to D
+Disk 1: Move from S to I
+Disk 2: Move from S to D
+Disk 1: Move from I to D
+The current number of disks is 4
+The number of recursive calls was 31 and the time was 4

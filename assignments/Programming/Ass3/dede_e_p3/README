@@ -1,0 +1,91 @@
+
+CS572 Design and Analysis of Algorithms
+Fall 2009
+PROJECT 3 README FILE
+
+Due Date: Monday, November. 16. 2009
+Submission Date: Sunday, October. 15. 2009
+Author(s): Elif Dede
+e-mail(s): edede1@binghamton.edu   elifdd@gmail.com
+
+PURPOSE:
+JAVA programming language is used as the programming language
+This project aims to implement finding a weighted median algorithm in O(n) time.
+Methods RANDOMIZED-SELECT, RANDOMIZED-PARTITION and PARTITION is implemented with the given
+algorithms in Cormen.
+
+PERCENT COMPLETE:
+I believe I have accomplished to meet all the requirements given in the project description.
+I have tested the the algorithm with all the inputs given in the results.doc file which is
+posted to the blackboard for this project.
+
+BUGS:
+All the exceptions has tried to be handled.
+
+
+FILES:
+InputFileReader.java			reads the input file creates the list
+Node.java						a list element
+MedianDriver.java				the file contains the main function
+WeightedMedianComputer.java		java file implements the algorithms
+
+SAMPLE OUTPUT:
+
+This is a sample input generated from the file  input.txt 
+
+10 , 20
+8 , 1
+4 , 1
+16 , 1
+2 , 1
+6 , 1
+14 , 1
+12 , 1
+Regular Median Key: 8
+Regular Median: 8 stored at the index: 3
+Sum Left: 3.0
+Sum Right: 23.0
+Sum Half: 13.5
+Regular Median: 12 stored at the index: 6
+Sum Left: 20.0
+Sum Right: 2.0
+Sum Half: 13.5
+Regular Median: 10 stored at the index: 5
+Weighted Median Key: 10 at index: 5
+2 , 1
+4 , 1
+6 , 1
+8 , 1
+16 , 1
+10 , 20
+12 , 1
+14 , 1
+
+This program has also been tested in bingsuns for these outputs and nothing has gone wrong.
+Running the program in bingsuns still provides desired output.
+
+
+TO COMPILE:
+Go to directory of your file from command line and type:
+
+javac Submission.java
+
+or 
+
+make
+
+TO RUN:
+After compiling stay in the same directory and type:
+
+java Submission <input file name>
+
+EXTRA CREDIT:
+There were no extra credit offered for this assignment
+
+
+BIBLIOGRAPHY:
+
+CS 575 Class Notes, Slides
+Data Structures & Algorithms in Java Second Edition, Robert Lafore
+Introduction to Algorithms,  Cormen and Rivest
+

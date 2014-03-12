@@ -1,0 +1,91 @@
+
+CS572 Design and Analysis of Algorithms
+Fall 2009
+PROJECT 2 README FILE
+
+Due Date: Monday, October. 12. 2009
+Submission Date: Sunday, October. 11. 2009
+Author(s): Elif Dede
+e-mail(s): edede1@binghamton.edu   elifdd@gmail.com
+
+PURPOSE:
+This project aims to implement towers of Hanoi. Output file contains the call time and number of calls
+information for each value of #disks input. However, if the number of disks is less than 6 it also prints
+the steps of each call into the output file and to the screen.
+
+I have used java BigInteger as the type of number of calls variable to prevent the overflow in 32 machines 
+
+
+PERCENT COMPLETE:
+I believe I have accomplished to meet all the requirements given in the project description.
+I have tested the the algorithm with many values and it seems perfectly working
+
+BUGS:
+All the exceptions has tried to be handled.
+
+
+FILES:
+OutputFileWriter.java		writes the output list to a file at the end of the program
+Towers.java					the java file implements the towers of hanoi algorithm
+HanoiTowerBuilder.java		the file contains the main function
+
+SAMPLE OUTPUT:
+
+This is a sample from the output.txt that is generated for 4 Disks;
+
+Disk 1: Move from S to I
+Disk 2: Move from S to D
+Disk 1: Move from I to D
+Disk 3: Move from S to I
+Disk 1: Move from D to S
+Disk 2: Move from D to I
+Disk 1: Move from S to I
+Disk 4: Move from S to D
+Disk 1: Move from I to D
+Disk 2: Move from I to S
+Disk 1: Move from D to S
+Disk 3: Move from I to D
+Disk 1: Move from S to I
+Disk 2: Move from S to D
+Disk 1: Move from I to D
+The current number of disks is 4
+The number of recursive calls was 31 and the time was 1
+
+------------------------------------------------------------
+This is a sample output for the program run for 30 disks:
+
+The current number of disks is 30
+The number of recursive calls was 2147483647 and the time was 195395
+
+
+-------------------------------------------------------------
+This is a sample output for the program run for 31 disks:
+
+The current number of disks is 31
+The number of recursive calls was 4294967295 and the time was 380057
+
+This program has also been tested in bingsuns for these outputs and nothing has gone wrong.
+Running the program in bingsuns still provides desired output.
+
+
+
+TO COMPILE:
+Go to directory of your file from command line and type:
+
+javac HanoiTowerBuilder.java
+
+TO RUN:
+After compiling stay in the same directory and type:
+
+java HanoiTowerBuilder <number of disks> <output file name>
+
+EXTRA CREDIT:
+There were no extra credit offered for this assignment
+
+
+BIBLIOGRAPHY:
+
+CS 575 Class Notes, Slides
+Data Structures & Algorithms in Java Second Edition, Robert Lafore
+Introduction to Algorithms,  Cormen and Rivest
+
